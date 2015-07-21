@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Player : MonoBehaviour {
@@ -19,6 +19,7 @@ public class Player : MonoBehaviour {
 
 	void Movement(){
 		this.transform.Translate (Vector2.right * speed * Time.deltaTime);
+		//Jump
 		if (Input.GetKeyDown ("space") && isOnPlatform) {
 			//this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 			this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 6f);
