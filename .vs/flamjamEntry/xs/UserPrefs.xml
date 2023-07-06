@@ -3,19 +3,25 @@
     <Files>
       <File FileName="../GemElement/Movement/Assets/Scripts/GemController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Player.cs" Line="18" Column="13" />
-      <File FileName="Assets/Scripts/Jumping.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Jumping.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="flamjamEntry" expanded="True" selected="True" />
+          <Node name="flamjamEntry" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Player.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5c2f90d4-7153-410d-a1ea-b3592be1bf88" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b548a8cf-232b-4e34-a23a-e71f7f01cf42" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
