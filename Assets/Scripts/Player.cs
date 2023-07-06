@@ -15,14 +15,14 @@ public class Player : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 		Movement ();
 	}
 
 	void Movement(){
 		this.transform.Translate (Vector2.right * speed * Time.deltaTime);
 		//Jump
-		if (Input.GetKeyDown("space") && isOnPlatform) {
+		if (Input.anyKeyDown && isOnPlatform) {
 			//this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 			this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 6f);
 		}
